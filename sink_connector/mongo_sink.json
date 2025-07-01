@@ -1,0 +1,13 @@
+{
+	"connector.class": "com.mongodb.kafka.connect.MongoSinkConnector",
+	"database": "test",
+	"topics": "ORCLPDB1.SYS.CUSTOMERS",
+	"connection.uri": "mongodb://mongo1",
+	"value.converter.schemas.enable": "false",
+	"value.converter": "org.apache.kafka.connect.json.JsonConverter",
+	"collection": "CUSTOMERS",
+	"key.converter": "org.apache.kafka.connect.storage.StringConverter",
+	"document.id.strategy": "com.mongodb.kafka.connect.sink.processor.id.strategy.PartialKeyStrategy",
+	"document.id.strategy.partial.key.projection.list": "RECID",
+	"document.id.strategy.partial.key.projection.type": "AllowList"
+}
