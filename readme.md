@@ -101,11 +101,3 @@
 	GRANT FLASHBACK ON SYS.CUSTOMERS TO C##CDC_PRIVS;
 
 	https://docs.confluent.io/kafka-connectors/oracle-cdc/current/examples.html#capturing-lob-type-columns
-
-** Tìm hiểu
-	- SQL, NoSQL (MongoDb): https://www.youtube.com/watch?v=8Nx7cdwT86c
-	- Hadoop, Spark
-	- Quy trình phát triển phần mềm SDLC
-	- ACID: https://viblo.asia/p/dao-sau-ve-sql-transactions-E375z4jWZGW#_isolation-levels-6
-	- Napas sản phẩm
-	- https://strimzi.io/
